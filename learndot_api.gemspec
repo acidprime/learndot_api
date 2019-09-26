@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files       += Dir.glob("lib/**/*")
   s.files       += Dir.glob("examples/**/*")
 
-  s.add_dependency 'httparty', '~> 0.13.7'
+  s.add_dependency 'httparty', '~> 0.17.1'
   
   s.description       = <<-desc
     Puppet uses this gem to interact with the Learndot API. It may also
