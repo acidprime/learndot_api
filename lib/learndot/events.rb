@@ -29,6 +29,7 @@ class Learndot::Events
       klass[:time_zone]        = location['timeZone']
       klass[:notes]            = klass['notes']
       klass[:session_url]      = klass['sessionUrl']
+      klass[:status]           = klass['status']
 
       klass
     end
